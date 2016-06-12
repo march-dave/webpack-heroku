@@ -1,5 +1,5 @@
-import path = require('path')
-import webpack = require('webpack')
+const path = require('path')
+const webpack = require('webpack')
 
 module.exports = {
   devtool: 'eval',
