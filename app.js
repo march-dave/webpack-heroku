@@ -14,8 +14,8 @@ import graphqlHTTP from 'express-graphql';
 //
 
 
-// import mongoose from 'mongoose';
-//
+import mongoose from 'mongoose';
+
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/property-manager');
 const port = (process.env.PORT || 8080);
 
