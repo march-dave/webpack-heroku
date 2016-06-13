@@ -4,7 +4,7 @@
   "description": "Simplest Heroku starter kit for React apps.",
   "main": "./src/entry.js",
   "homepage": "",
-  "author": "",
+  "author": "dave l",
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
@@ -57,7 +57,7 @@
     "jquery": "^2.2.4",
     "jsdom": "^9.2.0",
     "mocha": "^2.5.3",
-    "mongoose": "^4.4.19",
+    "mongoose": "^4.4.20",
     "morgan": "^1.7.0",
     "node-fetch": "^1.5.3",
     "node-sass": "^3.7.0",
