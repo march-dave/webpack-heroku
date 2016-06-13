@@ -8,7 +8,7 @@ import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
 
 import graphqlHTTP from 'express-graphql'
-import schema from './data/index'
+// import schema from './data/index'
 
 
 
