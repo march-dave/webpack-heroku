@@ -61,9 +61,9 @@ Session.vim
 *~
 
 #font
-.woff
-.eot
-.woff2
-.svg
-.ttf
-.svg
+*.woff
+*.eot
+*.woff2
+*.svg
+*.ttf
+*.svg
