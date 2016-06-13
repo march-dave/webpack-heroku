@@ -13,7 +13,7 @@ import schema from './data/index'
 
 
 
-const app = express();
+
 
 const port = (process.env.PORT || 8080)
 const app = Server.app()
