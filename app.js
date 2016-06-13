@@ -8,8 +8,8 @@ import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
 
 import graphqlHTTP from 'express-graphql';
-import api from '../api/index';
-import schema from '../data/index';
+const api = ('../api/index');
+const schema = ('../data/index');
 
 import mongoose from 'mongoose';
 

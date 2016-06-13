@@ -59,3 +59,11 @@ node_modules
 Session.vim
 .netrwhist
 *~
+
+#font
+.woff
+.eot
+.woff2
+.svg
+.ttf
+.svg
