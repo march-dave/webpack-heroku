@@ -16,7 +16,12 @@ import graphqlHTTP from 'express-graphql';
 
 import mongoose from 'mongoose';
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/property-manager');
+const MONGOURL = process.env.MONGODB_URI || 'mongodb://localhost:/property-manager'
+mongoose.connect(MONGOURL, err => {
+  console.log(err || `Connected to MongoDB at ${MONGOURL}`);
+});
+
+
 const port = (process.env.PORT || 8080);
 
 const app = Server.app()
