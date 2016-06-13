@@ -1,5 +1,20 @@
 import Server from './server.js'
 import webpack from 'webpack';
+import path from 'path';
+import open from 'open';
+
+import logger from 'morgan';
+import bodyParser from 'body-parser';
+import cookieParser from 'cookie-parser';
+
+import graphqlHTTP from 'express-graphql'
+import schema from './data/index'
+
+
+
+
+const app = express();
+
 const port = (process.env.PORT || 8080)
 const app = Server.app()
 
