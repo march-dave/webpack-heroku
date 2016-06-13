@@ -7,8 +7,9 @@ import logger from 'morgan';
 import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
 
-import graphqlHTTP from 'express-graphql'
-// import schema from './data/index'
+import graphqlHTTP from 'express-graphql';
+import api from '../api/index';
+import schema from '../data/index';
 
 import mongoose from 'mongoose';
 
