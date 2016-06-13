@@ -13,10 +13,10 @@ import graphqlHTTP from 'express-graphql';
 // const schema = ('../data/index');
 //
 //
-// import mongoose from 'mongoose';
-//
-// mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/property-manager');
-// const port = (process.env.PORT || 8080);
+import mongoose from 'mongoose';
+
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/property-manager');
+const port = (process.env.PORT || 8080);
 
 const app = Server.app()
 
