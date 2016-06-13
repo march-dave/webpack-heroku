@@ -12,7 +12,7 @@ import graphqlHTTP from 'express-graphql';
 // const api = ('../api/index');
 // const schema = ('../data/index');
 //
-//
+
 import mongoose from 'mongoose';
 
 mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/property-manager');
