@@ -1,14 +1,14 @@
-const webpack = require('webpack');
-const path = require('path');
+// const webpack = require('webpack');
+// const path = require('path');
 
-// import webpack from 'webpack';
-// import path from 'path';
+import webpack from 'webpack';
+import path from 'path';
 
 module.exports = {
   devtool: 'source-map',
 
   entry: [
-    'bootstrap-loader',,
+    'bootstrap-loader',
     './src/index'
   ],
   target: 'web',
