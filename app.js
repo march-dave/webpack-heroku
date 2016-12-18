@@ -26,6 +26,7 @@ const port = (process.env.PORT || 8080);
 const app = Server.app()
 
 if (process.env.NODE_ENV !== 'production') {
+  console.log('I am a Debug');
   const webpackDevMiddleware = require('webpack-dev-middleware')
   const webpackHotMiddleware = require('webpack-hot-middleware')
   const config = require('./webpack.dev.config.js')
