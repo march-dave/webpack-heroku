@@ -7,7 +7,7 @@
   "author": "dave l",
   "license": "MIT",
   "scripts": {
-    "build": "NODE_ENV=production webpack --config ./webpack.prod.config.js --progress --colors",
+    "build": "NODE_ENV=production webpack --config ./webpack.config.js --progress --colors",
     "start": "./node_modules/.bin/babel-node app.js"
   },
   "repository": {
