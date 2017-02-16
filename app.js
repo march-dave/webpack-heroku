@@ -11,8 +11,6 @@ import graphqlHTTP from 'express-graphql';
 
 // const api = ('../api/index');
 // const schema = ('../data/index');
-//
-
 
 import mongoose from 'mongoose';
 
@@ -24,6 +22,11 @@ mongoose.connect(MONGOURL, err => {
 const port = (process.env.PORT || 8080);
 
 const app = Server.app()
+
+app.use(logger('dev'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(cookieParser());
 
 if (process.env.NODE_ENV !== 'production') {
   console.log('I am a Debug');
@@ -39,10 +42,6 @@ if (process.env.NODE_ENV !== 'production') {
   }))
 }
 
-// app.use(logger('dev'));
-// app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded({ extended: false }));
-// app.use(cookieParser());
 //
 // app.use('/api', api);
 //
