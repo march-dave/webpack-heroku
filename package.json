@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Simplest Heroku starter kit for React apps.",
     "main": "./src/entry.js",
-    "homepage": "",
+    "homepage": "https://github.com/march-dave",
     "author": "dave l",
     "license": "MIT",
     "scripts": {
